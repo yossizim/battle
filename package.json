@@ -1,0 +1,26 @@
+{
+  "name": "battle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.0.2",
+    "casual": "^1.6.2",
+    "chalk": "^4.1.1",
+    "graphql": "^15.5.1",
+    "joi": "^17.4.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.2.5",
+    "ramda": "^0.27.1",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

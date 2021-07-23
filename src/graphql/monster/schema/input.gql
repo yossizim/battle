@@ -1,0 +1,8 @@
+input CreateMonsterInput {
+  userId: ID!
+  name: String!
+}
+
+input UpdateMonsterInput {
+  name: String
+}

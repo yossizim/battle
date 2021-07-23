@@ -1,0 +1,4 @@
+type Mutation {
+  createMonster(input: CreateMonsterInput!): Monster!
+  updateMonster(input: UpdateMonsterInput!): Monster!
+}
